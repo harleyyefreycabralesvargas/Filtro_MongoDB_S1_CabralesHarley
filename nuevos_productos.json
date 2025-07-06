@@ -1,0 +1,349 @@
+[
+    {
+        "sku": "A059",
+        "name": "Figura Robot Increible 01",
+        "category": "Figuras",
+        "price": 34000,
+        "stock": 25,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A060",
+        "name": "Figura Robot Increible 02",
+        "category": "Figuras",
+        "price": 35000,
+        "stock": 21,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A061",
+        "name": "Figura Robot Increible 03",
+        "category": "Figuras",
+        "price": 36000,
+        "stock": 210,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A062",
+        "name": "Figura Robot Increible 04",
+        "category": "Figuras",
+        "price": 37000,
+        "stock": 28,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A063",
+        "name": "Figura Robot Increible 05",
+        "category": "Figuras",
+        "price": 38000,
+        "stock": 24,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A064",
+        "name": "Figura Robot Increible 06",
+        "category": "Figuras",
+        "price": 39000,
+        "stock": 26,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A065",
+        "name": "Figura Robot Increible 07",
+        "category": "Figuras",
+        "price": 40000,
+        "stock": 23,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A066",
+        "name": "Figura Robot Increible 08",
+        "category": "Figuras",
+        "price": 41000,
+        "stock": 21,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A067",
+        "name": "Figura Robot Increible 09",
+        "category": "Figuras",
+        "price": 42000,
+        "stock": 27,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A068",
+        "name": "Figura Robot Increible 10",
+        "category": "Figuras",
+        "price": 43000,
+        "stock": 25,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A069",
+        "name": "Figura Robot Increible 11",
+        "category": "Figuras",
+        "price": 44000,
+        "stock": 290,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A070",
+        "name": "Figura Robot Increible 12",
+        "category": "Figuras",
+        "price": 45000,
+        "stock": 25,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A071",
+        "name": "Figura Robot Increible 13",
+        "category": "Figuras",
+        "price": 46000,
+        "stock": 22,
+        "anime": "Robots Super Increibles",
+        "rating": 4.3,
+        "tags": [
+            "coleccionable",
+            "metal"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A072",
+        "name": "Figura Robot Increible 14",
+        "category": "Figuras",
+        "price": 47000,
+        "stock": 24,
+        "anime": "Robots Super Increibles 2",
+        "rating": 4.6,
+        "tags": [
+            "coleccionable",
+            "acero",
+            "inframundo"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A073",
+        "name": "Figura Robot Increible 15",
+        "category": "Figuras",
+        "price": 48000,
+        "stock": 26,
+        "anime": "Robots Super Increibles 2",
+        "rating": 4.6,
+        "tags": [
+            "coleccionable",
+            "acero",
+            "inframundo"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A074",
+        "name": "Figura Robot Increible 16",
+        "category": "Figuras",
+        "price": 49000,
+        "stock": 21,
+        "anime": "Robots Super Increibles 2",
+        "rating": 4.6,
+        "tags": [
+            "coleccionable",
+            "acero",
+            "inframundo"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A075",
+        "name": "Figura Robot Increible 17",
+        "category": "Figuras",
+        "price": 50000,
+        "stock": 6,
+        "anime": "Robots Super Increibles 3",
+        "rating": 5.0,
+        "tags": [
+            "coleccionable",
+            "metal",
+            "raro"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A076",
+        "name": "Figura Robot Increible 18",
+        "category": "Figuras",
+        "price": 51000,
+        "stock": 5,
+        "anime": "Robots Super Increibles 3",
+        "rating": 5.0,
+        "tags": [
+            "coleccionable",
+            "metal",
+            "raro"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A077",
+        "name": "Figura Robot Increible 19",
+        "category": "Figuras",
+        "price": 52000,
+        "stock": 2,
+        "anime": "Robots Super Increibles 3",
+        "rating": 5.0,
+        "tags": [
+            "coleccionable",
+            "metal",
+            "raro"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    },
+    {
+        "sku": "A078",
+        "name": "Figura Robot Increible 20",
+        "category": "Figuras",
+        "price": 100000,
+        "stock": 1,
+        "anime": "Robots Super Increibles 3",
+        "rating": 5.0,
+        "tags": [
+            "coleccionable",
+            "metal",
+            "raro"
+        ],
+        "provider": {
+            "name": "OtakuDistribuciones",
+            "country": "Japón"
+        }
+    }
+]

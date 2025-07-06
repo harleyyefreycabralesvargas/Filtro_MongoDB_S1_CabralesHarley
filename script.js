@@ -1,6 +1,8 @@
 // Examen Mongo DB 
+
 // ###################################
 // ###################################
+
 // 1. Crear la base de datos anime_store y la colección products e importar los datos del archivo json. 
 // 1.1 Crear base de datos
 use anime_store;
@@ -30,6 +32,10 @@ db.products.insertMany([
     {"sku": "A034","name": "Figura Mikasa Ackerman","category": "Figuras","price": 112000,"stock": 9,"anime": "Attack on Titan","rating": 4.7,"tags": ["colección", "resina"],"provider": { "name": "ToeiExpress", "country": "Japón" }},
     {"sku": "A043","name": "Póster Akatsuki","category": "Pósters","price": 18000,"stock": 0,"anime": "Naruto","rating": 4.3,"tags": ["negro", "vinilo"],"provider": { "name": "AnimePosters", "country": "EEUU" }}
 ])
+
+// ###################################
+// ###################################
+
 // 2. Agregar el siguiente producto.
 db.products.insertOne({
     "sku": "A101",
@@ -41,33 +47,42 @@ db.products.insertOne({
     "rating": 4.8,
     "tags": ["coleccionable", "resina", "edición especial"],
     "provider": {
-      "name": "OtakuDistribuciones",
-      "country": "Japón"
+    "name": "OtakuDistribuciones",
+    "country": "Japón"
     }
 })
-// insercion de 20 nuevos productos
+
+// ###################################
+// ###################################
+
+// Paso pedido por el profesor
+// Insercion de 20 nuevos productos
 db.products.insertMany([
-    {"sku": "A059","name": "Figura Robot Increible 01","category": "Figuras","price": 34000,"stock": 25,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A060","name": "Figura Robot Increible 02","category": "Figuras","price": 35000,"stock": 21,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A061","name": "Figura Robot Increible 03","category": "Figuras","price": 36000,"stock": 210,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A062","name": "Figura Robot Increible 04","category": "Figuras","price": 37000,"stock": 28,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A063","name": "Figura Robot Increible 05","category": "Figuras","price": 38000,"stock": 24,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A064","name": "Figura Robot Increible 06","category": "Figuras","price": 39000,"stock": 26,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A065","name": "Figura Robot Increible 07","category": "Figuras","price": 40000,"stock": 23,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A066","name": "Figura Robot Increible 08","category": "Figuras","price": 41000,"stock": 21,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A067","name": "Figura Robot Increible 09","category": "Figuras","price": 42000,"stock": 27,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A068","name": "Figura Robot Increible 10","category": "Figuras","price": 43000,"stock": 25,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A069","name": "Figura Robot Increible 11","category": "Figuras","price": 44000,"stock": 290,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A070","name": "Figura Robot Increible 12","category": "Figuras","price": 45000,"stock": 25,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A071","name": "Figura Robot Increible 13","category": "Figuras","price": 46000,"stock": 22,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A072","name": "Figura Robot Increible 14","category": "Figuras","price": 47000,"stock": 24,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A073","name": "Figura Robot Increible 15","category": "Figuras","price": 48000,"stock": 26,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A074","name": "Figura Robot Increible 16","category": "Figuras","price": 49000,"stock": 21,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A075","name": "Figura Robot Increible 17","category": "Figuras","price": 50000,"stock": 28,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A076","name": "Figura Robot Increible 18","category": "Figuras","price": 51000,"stock": 23,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A077","name": "Figura Robot Increible 19","category": "Figuras","price": 52000,"stock": 29,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }},
-    {"sku": "A078","name": "Figura Robot Increible 20","category": "Figuras","price": 53000,"stock": 220,"anime": "Robots Super Increibles","rating": 4.3,"tags": ["coleccionable", "metal"],"provider": { "name": "OtakuDistribuciones", "country": "Japón" }}
+{"sku": "A059","name": "Figura Robot Increible 01","category": "Figuras","price": 34000,"stock": 25,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A060","name": "Figura Robot Increible 02","category": "Figuras","price": 35000,"stock": 21,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A061","name": "Figura Robot Increible 03","category": "Figuras","price": 36000,"stock": 210,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A062","name": "Figura Robot Increible 04","category": "Figuras","price": 37000,"stock": 28,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A063","name": "Figura Robot Increible 05","category": "Figuras","price": 38000,"stock": 24,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A064","name": "Figura Robot Increible 06","category": "Figuras","price": 39000,"stock": 26,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A065","name": "Figura Robot Increible 07","category": "Figuras","price": 40000,"stock": 23,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A066","name": "Figura Robot Increible 08","category": "Figuras","price": 41000,"stock": 21,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A067","name": "Figura Robot Increible 09","category": "Figuras","price": 42000,"stock": 27,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A068","name": "Figura Robot Increible 10","category": "Figuras","price": 43000,"stock": 25,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A069","name": "Figura Robot Increible 11","category": "Figuras","price": 44000,"stock": 290,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A070","name": "Figura Robot Increible 12","category": "Figuras","price": 45000,"stock": 25,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A071","name": "Figura Robot Increible 13","category": "Figuras","price": 46000,"stock": 22,"anime": "Robots Super Increibles","rating": 4.3,"tags": [    "coleccionable",    "metal"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A072","name": "Figura Robot Increible 14","category": "Figuras","price": 47000,"stock": 24,"anime": "Robots Super Increibles 2","rating": 4.6,"tags": [    "coleccionable",    "acero",    "inframundo"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A073","name": "Figura Robot Increible 15","category": "Figuras","price": 48000,"stock": 26,"anime": "Robots Super Increibles 2","rating": 4.6,"tags": [    "coleccionable",    "acero",    "inframundo"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A074","name": "Figura Robot Increible 16","category": "Figuras","price": 49000,"stock": 21,"anime": "Robots Super Increibles 2","rating": 4.6,"tags": [    "coleccionable",    "acero",    "inframundo"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A075","name": "Figura Robot Increible 17","category": "Figuras","price": 50000,"stock": 6,"anime": "Robots Super Increibles 3","rating": 5.0,"tags": [    "coleccionable",    "metal",    "raro"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A076","name": "Figura Robot Increible 18","category": "Figuras","price": 51000,"stock": 5,"anime": "Robots Super Increibles 3","rating": 5.0,"tags": [    "coleccionable",    "metal",    "raro"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A077","name": "Figura Robot Increible 19","category": "Figuras","price": 52000,"stock": 2,"anime": "Robots Super Increibles 3","rating": 5.0,"tags": [    "coleccionable",    "metal",    "raro"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}},
+{"sku": "A078","name": "Figura Robot Increible 20","category": "Figuras","price": 100000,"stock": 1,"anime": "Robots Super Increibles 3","rating": 5.0,"tags": [    "coleccionable",    "metal",    "raro"],"provider": {    "name": "OtakuDistribuciones",    "country": "Japón"}}
 ])
+
+// ###################################
+// ###################################
+
 // 3. Agregar a todos los productos las siguientes propiedades:
 // available: true
 // origin: "Importado"
@@ -78,8 +93,11 @@ db.products.updateMany(
     origin: "Importado"} 
     }
 )
-// 4. Realizar las siguientes actualizaciones:
 
+// ###################################
+// ###################################
+
+// 4. Realizar las siguientes actualizaciones:
 // 4.1 Producto con sku: A034, actualizar stock a 15.
 db.products.updateOne(
     {sku: "A034"}, 
@@ -98,12 +116,115 @@ db.products.updateOne(
 db.products.updateOne(
     { sku: "A059" },
     { $push: { tags: "oferta" } }
-  );
+);
 // 4.4 Producto con sku: A012, agregar dos nuevos tags: "nuevo", "popular".
 db.products.updateOne(
     { sku: "A012" },
     { $push: { tags: {$each:["nuevo","popular"] } }}
-  );
+);
 // 4.5 Producto con sku: A025, agregar los tags "descuento", "outlet".
-
+db.products.updateOne(
+    { sku: "A025" },
+    { $push: { tags: {$each:["descuento","outlet"] } }}
+);
 // 4.6 Producto llamado "Camiseta Goku Ultra Instinct", cambiar el price a 45000.
+db.products.updateOne(
+    { name: "Camiseta Goku Ultra Instinct" },
+    { $set: { price: 45000 } }
+);
+
+// ###################################
+// ###################################
+
+// 5. Renombrar la propiedad origin a import_type.
+db.products.updateMany(
+    {}, 
+    { $rename: { 
+        origin: "import_type" 
+    } 
+});
+
+// ###################################
+// ###################################
+
+// 6. Cambiar el import_type a "Nacional" para los productos cuyo proveedor esté en Colombia.
+db.products.updateMany(
+    { "provider.country": "Colombia" },
+    { $set: { import_type: "Nacional" } }
+);
+
+// ###################################
+// ###################################
+
+// 7. Crear las siguientes consultas:
+// 7.1 Mostrar los productos de la categoría "Mangas"
+db.products.find(
+    { category: "Mangas" },
+    {}
+);
+// 7.2 Mostrar los productos que tienen un precio mayor a 50000
+db.products.find(
+    { price: { $gt: 50000 } },
+    {}
+);
+// 7.3 Mostrar los productos que no son de la categoría "Figuras"
+db.products.find(
+    { category: { $ne: "Figuras" } },
+    {}
+);
+// 7.4 Mostrar el sku, name y tags de los productos que tienen calificación mayor a 4.5.
+db.products.find(
+    { rating: { $gt: 4.5 } },
+    { _id: 0, sku: 1, name: 1, tags: 1 }
+);
+// 7.5 Mostrar sku, name, y price de los productos con stock menor a 5.
+db.products.find(
+    { stock: { $lt: 5 } },
+    { _id: 0, sku: 1, name: 1, price: 1 }
+);
+
+// ###################################
+// ###################################
+
+// 8. Eliminar la propiedad available de todos los documentos.
+db.products.updateMany(
+    {}, 
+    { $unset: { 
+        available: "" 
+    } 
+});
+
+// ###################################
+// ###################################
+
+// 9. Eliminar el tag "descuento" del producto con sku: A025.
+db.products.updateOne(
+    { sku: "A025" },
+    { $pull: { tags: "descuento" } }
+);
+
+// ###################################
+// ###################################
+
+// 10. Eliminar los tags "nuevo" y "popular" del producto con sku: A012.
+db.products.updateOne(
+    { sku: "A012" },
+    { $pull: { tags: { $in: ["nuevo", "popular"] } } }
+);
+
+// ###################################
+// ###################################
+
+// 11. Eliminar el producto con sku: A043.
+db.products.deleteOne(
+    { sku: "A043" }
+);
+
+// ###################################
+// ###################################
+
+// 12. Eliminar todos los productos con stock igual a 0.
+db.products.deleteMany(
+    { stock: 0 }
+);
+
